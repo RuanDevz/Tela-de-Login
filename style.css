@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+:root{
+    --cor1:#ffe0ff;
+    --cor2:#ffa8d9;
+    --cor3:#ff69b4;
+    --cor4:#c33b80;
+    --cor5:#89004f;
+
+    --font1: 'Birthstone Bounce'
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor1);
+    margin-top: 150px;
+    background-image: linear-gradient(to right,#ff69b4,#ffa8d9)
+}
+h1{
+    bottom: 445px;
+    left: 185px;
+    position: absolute;
+    font-family: var(--font1);
+    font-size: 70px;
+    color: #ff69b4;
+    margin-right: 60px;
+}
+
+main{
+    position: relative;
+    width: 550px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+input{
+    width: 400px;
+    padding: 15px;
+    outline: 0;
+}
+.enviar{
+    margin-top: 23px;
+    padding: 15px;
+}
+input#iremember{
+    background-color: #ff69b4;
+    height: 17px;
+    width: 17px;
+}
+.esqueci-minha-senha a{
+    position: absolute;
+    top: 500px;
+    left: 195px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--cor4);
+    font-size: 18px;
+}
+
+input#enviar{
+    position: absolute;
+    left: 74px;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-image: linear-gradient(to right,#ff69b4,#ffa8d9);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input#enviar:hover{
+    background-image: linear-gradient(to right,#ffa8d9,#ff69b4);
+}
