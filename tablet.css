@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+:root{
+    --cor1:#ffe0ff;
+    --cor2:#ffa8d9;
+    --cor3:#ff69b4;
+    --cor4:#c33b80;
+    --cor5:#89004f;
+
+    --font1: 'Birthstone Bounce'
+}
+
+main{
+    width: 700px;
+    height: 600px;
+}
+h1{
+    position: absolute;
+    top: 38px;
+    left: 255px;
+}
+
+input#enviar{
+    position: absolute;
+    left: 196px;
+}
+
+.esqueci-minha-senha{
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    width: 400px;
+}

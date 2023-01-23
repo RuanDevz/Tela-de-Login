@@ -22,7 +22,7 @@ body{
 }
 h1{
     bottom: 445px;
-    left: 185px;
+    left: 126px;
     position: absolute;
     font-family: var(--font1);
     font-size: 70px;
@@ -32,7 +32,7 @@ h1{
 
 main{
     position: relative;
-    width: 550px;
+    width: 400px;
     height: 600px;
     display: flex;
     align-items: center;
@@ -43,14 +43,19 @@ main{
     box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
+.senha{
+    margin-bottom: 10px;
+}
+
 input{
-    width: 400px;
+    width: 300px;
     padding: 15px;
     outline: 0;
 }
 .enviar{
     margin-top: 23px;
     padding: 15px;
+    margin-right: 10px;
 }
 input#iremember{
     background-color: #ff69b4;
@@ -60,7 +65,7 @@ input#iremember{
 .esqueci-minha-senha a{
     position: absolute;
     top: 500px;
-    left: 195px;
+    left: 125px;
     text-align: center;
     text-decoration: none;
     color: var(--cor4);
@@ -69,7 +74,7 @@ input#iremember{
 
 input#enviar{
     position: absolute;
-    left: 74px;
+    left: 54px;
     border-radius: 10px;
     margin-top: 50px;
     background-image: linear-gradient(to right,#ff69b4,#ffa8d9);
