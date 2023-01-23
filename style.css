@@ -21,7 +21,7 @@ body{
     background-image: linear-gradient(to right,#ff69b4,#ffa8d9)
 }
 h1{
-    bottom: 445px;
+    bottom: 471px;
     left: 126px;
     position: absolute;
     font-family: var(--font1);
@@ -33,7 +33,7 @@ h1{
 main{
     position: relative;
     width: 400px;
-    height: 600px;
+    height: 630px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,7 +64,7 @@ input#iremember{
 }
 .esqueci-minha-senha a{
     position: absolute;
-    top: 500px;
+    top: 460px;
     left: 125px;
     text-align: center;
     text-decoration: none;
@@ -76,12 +76,40 @@ input#enviar{
     position: absolute;
     left: 54px;
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 9px;
     background-image: linear-gradient(to right,#ff69b4,#ffa8d9);
     font-size: 20px;
     font-weight: bold;
 }
+.lembrar{
+    padding: 5px ;
+}
 
 input#enviar:hover{
     background-image: linear-gradient(to right,#ffa8d9,#ff69b4);
+}
+
+.imagens{
+    display: inline-block;
+    width: 50px;
+    margin: 11px;
+    border-radius: 50%;
+}
+
+.imagens:hover{
+    transform: translate(-2%,-6%);
+    box-shadow: 1px 1px 2px black;
+    transition: transform .3s, box-shadow .3s;
+}
+
+div#entrar p{
+    position: absolute;
+    top: 500px;
+    left: 160px;
+}
+div#image{
+    width: 300px;
+    position: absolute;
+    top: 530px;
+    left: 56px;
 }
