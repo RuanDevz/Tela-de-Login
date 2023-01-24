@@ -12,7 +12,7 @@
 
 main{
     width: 700px;
-    height: 600px;
+    height: 640px;
 }
 h1{
     position: absolute;
@@ -25,9 +25,34 @@ input#enviar{
     left: 196px;
 }
 
+.lembrar{
+    position: absolute;
+    top: 370px;
+    left: 187px;
+}
+
 .esqueci-minha-senha{
     position: absolute;
-    top: 10px;
-    left: 150px;
+    top: 0px;
+    left: 153px;
     width: 400px;
+}
+
+
+div#entrar p{
+    padding: 5px;
+    position: absolute;
+    left: 314px;
+}
+
+.imagens{
+    width: 50px;
+    margin: 20px;
+    margin-left: 50px;
+
+}
+div#image{
+    display: flex;
+    justify-content: left;
+    margin-left: 43px;
 }
